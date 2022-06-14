@@ -1,0 +1,44 @@
+/* GENERICS */
+
+
+/* UTILITY */
+:root {
+    --topnav-bg-color: #000000
+}
+
+.text-white {
+    color: white;
+}
+
+
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* TOPNAVBAR */
+#topnav {
+    background-color: var(--topnav-bg-color);
+    text-align: end;
+}
+
+#topnav #sonylogo {
+    height: 15px;
+}
+
+/* BOTTOM NAVBAR */
+
+#navbar-left a {
+    color: black;
+}
+
+
+
+
+#serach-img {
+    height: 25px;
+}
