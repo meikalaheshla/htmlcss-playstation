@@ -167,6 +167,10 @@ header {
     text-align: center;
 }
 
+#navbar-left .dropdown-menu img {
+    display: block;
+}
+
 
 
 
