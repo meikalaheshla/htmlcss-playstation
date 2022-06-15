@@ -45,6 +45,10 @@ section sup {
     color: #0072ce
 }
 
+.dark-section {
+    background-color: #1f1f1f;
+}
+
 .buy-now-button {
 
     background-color: var(--buy-now-bg-color);
@@ -57,6 +61,13 @@ section sup {
     background-color: var(--more-info-button-bg-color);
     color: var(--more-info-button-txt-color);
     font-weight: 600;
+}
+
+.page-banner {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -108,9 +119,6 @@ header {
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     padding-top: 250px;
 }
 
@@ -145,4 +153,23 @@ header {
     #hardware-section .hardware-item figure {
         height: 40%
     }
+}
+
+/* IT TAKES 2 SECTION */
+#It-takes-two-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#It-takes-two-banner #ITT-logo {
+    width: 60%;
+}
+
+/* NEW RELEASE SECTION */
+#new-release {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+#new-release img {
+    border-radius: 1rem;
 }
