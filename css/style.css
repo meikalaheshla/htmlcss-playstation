@@ -40,6 +40,7 @@ a {
 :root {
     --topnav-bg-color: #000000;
     --bottomnav-bg-color: #fff;
+    --accedi-bg-color: #212529;
     --buy-now-bg-color: #cd3d0f;
     --section-subtitle-txt-color: #727272;
     --more-info-button-txt-color: #fff;
@@ -69,32 +70,37 @@ a {
     background-color: var(--buy-now-bg-color);
 
     font-weight: 600;
-
+    transition: all 0.3s ease
 }
 
 .more-info-button {
     background-color: var(--more-info-button-bg-color);
     color: var(--more-info-button-txt-color);
     font-weight: 600;
-
-
+    transition: all 0.3s ease
 }
 
 /*  GENERIC BUTTONS HOVER EFFECTS */
 
 /* NAV BUTTON HOVER*/
 .nav-item #accedi-button:hover {
-    border: 2px solid #2d64e6;
+    background-color: var(--accedi-bg-color);
+    box-shadow: 0px 0px 0px 2px var(--accedi-bg-color);
+    border: 2px solid white;
     color: #2d64e6;
 }
 
 /* PAGE BANNERS BUTTONS HOVER */
 .buy-now-button:hover {
     background-color: var(--buy-now-bg-color);
+    box-shadow: 0px 0px 0px 2px var(--buy-now-bg-color);
+    border: 2px solid black;
 }
 
 .more-info-button:hover {
     background-color: var(--more-info-button-bg-color);
+    box-shadow: 0px 0px 0px 2px var(--more-info-button-bg-color);
+    border: 2px solid black;
 }
 
 /* PLAYNOW BUTTON HOVER */
@@ -254,6 +260,7 @@ header {
 
 #new-release .new-release-item {
     transition: transform 0.5s ease;
+    cursor: pointer;
 }
 
 /* NEW RELEASE HOVER  */
