@@ -79,3 +79,8 @@ header {
 #jumbotron #returnal-logo {
     width: 60%;
 }
+
+/* SALES GAME SECTION */
+#sales-games img {
+    border-radius: 1rem;
+}
