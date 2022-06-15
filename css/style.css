@@ -67,7 +67,7 @@ section sup {
 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 }
 
 
@@ -138,7 +138,7 @@ header {
 
 /* RESPONSIVE HARDWARE SECTION*/
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
 
 
     #hardware-section .hardware-item {
