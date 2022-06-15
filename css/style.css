@@ -63,14 +63,12 @@ a {
     background-color: #1f1f1f;
 }
 
+/* BUTTONS UTILITY */
 .buy-now-button {
 
     background-color: var(--buy-now-bg-color);
 
     font-weight: 600;
-
-
-
 
 }
 
@@ -82,12 +80,37 @@ a {
 
 }
 
+/*  GENERIC BUTTONS HOVER EFFECTS */
+
+/* NAV BUTTON HOVER*/
+.nav-item #accedi-button:hover {
+    border: 2px solid #2d64e6;
+    color: #2d64e6;
+}
+
+/* PAGE BANNERS BUTTONS HOVER */
+.buy-now-button:hover {
+    background-color: var(--buy-now-bg-color);
+}
+
+.more-info-button:hover {
+    background-color: var(--more-info-button-bg-color);
+}
+
+/* PLAYNOW BUTTON HOVER */
+#playstation-now #play-now-button:hover {
+    color: black;
+}
+
+
+
 .page-banner {
 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
 }
+
 
 
 
@@ -123,7 +146,7 @@ header {
 /* BOTTOM NAVBAR */
 
 #navbar-left a {
-    color: black;
+    /* color: black; */
 }
 
 
@@ -172,6 +195,7 @@ header {
 
 #hardware-section .hardware-item {
     opacity: 0.7;
+    cursor: pointer;
     transition: all 0.09s ease;
 }
 
@@ -228,7 +252,18 @@ header {
     border-radius: 1rem;
 }
 
+#new-release .new-release-item {
+    transition: transform 0.5s ease;
+}
+
+/* NEW RELEASE HOVER  */
+
+#new-release .new-release-item:hover {
+    transform: translateY(-10px);
+}
+
 /* PLAYSTATION PLUS SECTION */
+
 #playstation-plus {
     background-color: var(--play-plus-bg-color);
 }
