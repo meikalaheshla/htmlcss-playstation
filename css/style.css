@@ -45,6 +45,8 @@ a {
     --more-info-button-txt-color: #fff;
     --more-info-button-bg-color: #2d64e6;
     --play-plus-bg-color: #bebcbb;
+    --play-now-bg-color: #161c3b;
+    --play-now-button-bg-color: #fff;
 }
 
 .text-white {
@@ -201,10 +203,20 @@ header {
     background-color: var(--play-plus-bg-color);
 }
 
-#playstation-plus figure {
+.online-banner figure {
     width: 70%;
 }
 
 #playstation-plus #play-plus-button {
     background-color: #d9dadc
+}
+
+/* PLAYSTATION NOW SECTION */
+
+#playstation-now {
+    background-color: var(--play-now-bg-color);
+}
+
+#playstation-now #play-now-button {
+    background-color: var(--play-now-button-bg-color);
 }
