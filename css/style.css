@@ -1,29 +1,51 @@
 /* GENERICS */
 
 
+img {
+    max-width: 100%;
+}
+
 /* UTILITY */
 :root {
-    --topnav-bg-color: #000000
+    --topnav-bg-color: #000000;
+    --bottomnav-bg-color: #fff;
+    --buy-now-bg-color: #cd3d0f;
 }
 
 .text-white {
+
     color: white;
 }
+
+.buy-now-button {
+
+    background-color: var(--buy-now-bg-color);
+    text-decoration: none;
+}
+
+
+
+
 
 
 
 /* HEADER */
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 /* TOPNAVBAR */
 #topnav {
     background-color: var(--topnav-bg-color);
     text-align: end;
+}
+
+#bottomnav {
+    background-color: var(--bottomnav-bg-color)
 }
 
 #topnav #sonylogo {
@@ -41,4 +63,19 @@ header {
 
 #serach-img {
     height: 25px;
+}
+
+
+/* MAIN */
+#jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 250px;
+}
+
+#jumbotron #returnal-logo {
+    width: 60%;
 }
