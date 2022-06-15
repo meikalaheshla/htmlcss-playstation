@@ -18,12 +18,22 @@ section h2 {
 }
 
 section h4 {
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--section-subtitle-txt-color)
 }
 
-section sup {
+h2 sup {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+sup {
     font-size: 0.5rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* UTILITY */
@@ -33,7 +43,8 @@ section sup {
     --buy-now-bg-color: #cd3d0f;
     --section-subtitle-txt-color: #727272;
     --more-info-button-txt-color: #fff;
-    --more-info-button-bg-color: #2d64e6
+    --more-info-button-bg-color: #2d64e6;
+    --play-plus-bg-color: #bebcbb;
 }
 
 .text-white {
@@ -53,14 +64,19 @@ section sup {
 
     background-color: var(--buy-now-bg-color);
 
-    border-radius: 50rem;
-    padding: 0.375rem 0.75rem;
+    font-weight: 600;
+
+
+
+
 }
 
 .more-info-button {
     background-color: var(--more-info-button-bg-color);
     color: var(--more-info-button-txt-color);
     font-weight: 600;
+
+
 }
 
 .page-banner {
@@ -77,6 +93,7 @@ section sup {
 
 
 /* HEADER */
+
 header {
     position: sticky;
     top: 0;
@@ -86,6 +103,7 @@ header {
 }
 
 /* TOPNAVBAR */
+
 #topnav {
     background-color: var(--topnav-bg-color);
     text-align: end;
@@ -127,11 +145,13 @@ header {
 }
 
 /* BESTSELLER GAME SECTION */
+
 #best-seller-games img {
     border-radius: 1rem;
 }
 
 /* HARDWARE SECTION */
+
 #hardware-section .hardware-item {
     opacity: 0.7;
 }
@@ -156,6 +176,7 @@ header {
 }
 
 /* IT TAKES 2 SECTION */
+
 #It-takes-two-banner {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
@@ -165,6 +186,7 @@ header {
 }
 
 /* NEW RELEASE SECTION */
+
 #new-release {
     background-color: #1f1f1f;
     color: white;
@@ -172,4 +194,9 @@ header {
 
 #new-release img {
     border-radius: 1rem;
+}
+
+/* PLAYSTATION PLUS SECTION */
+#playstation-plus {
+    background-color: var(--play-plus-bg-color);
 }
