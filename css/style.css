@@ -47,6 +47,7 @@ a {
     --play-plus-bg-color: #bebcbb;
     --play-now-bg-color: #161c3b;
     --play-now-button-bg-color: #fff;
+    --footer-bg-color: #00439c;
 }
 
 .text-white {
@@ -219,4 +220,28 @@ header {
 
 #playstation-now #play-now-button {
     background-color: var(--play-now-button-bg-color);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--footer-bg-color);
+    padding-top: 5rem;
+
+}
+
+footer #footer-playstation-logo {
+    height: 100px;
+}
+
+footer #lang-globe {
+    height: 1.2rem;
+}
+
+footer a {
+    color: white;
+}
+
+footer #sie-logo {
+    height: 50px;
 }
