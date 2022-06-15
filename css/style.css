@@ -53,7 +53,7 @@ a {
 }
 
 .text-blue {
-    color: #0072ce
+    color: #2d64e6
 }
 
 .dark-section {
@@ -199,4 +199,12 @@ header {
 /* PLAYSTATION PLUS SECTION */
 #playstation-plus {
     background-color: var(--play-plus-bg-color);
+}
+
+#playstation-plus figure {
+    width: 70%;
+}
+
+#playstation-plus #play-plus-button {
+    background-color: #d9dadc
 }
