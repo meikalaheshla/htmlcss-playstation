@@ -162,12 +162,12 @@ header {
 }
 
 /* BONUS NAVBAR JAVASCRIPT */
-#navbar-left .dropdown-menu {
+#bottomnav .dropdown-menu {
 
     text-align: center;
 }
 
-#navbar-left .dropdown-menu img {
+#bottomnav .dropdown-item img {
     display: block;
 }
 
