@@ -236,6 +236,14 @@ header {
     }
 }
 
+@media screen and (min-width: 992px) {
+    #hardware-section .hardware-item figure {
+        height: 60%
+    }
+
+}
+
+
 /* IT TAKES 2 SECTION */
 
 #It-takes-two-banner {
