@@ -153,18 +153,18 @@ header {
     border-radius: 1rem;
 }
 
-.game-thumb.my-active {
+#best-seller-games .game-thumb.my-active-thumb {
     border-radius: 1.2rem;
     border: 3px solid #2d64e6;
     padding: 0.2rem;
 }
 
-.game-thumb {
+#best-seller-games .game-thumb {
     transition: transform 0.5s ease;
 }
 
 /*  BESTSELLER SECTION HOVER EFFECTS */
-.game-thumb:hover {
+#best-seller-games .game-thumb:hover {
     transform: translateY(-10px);
 }
 
@@ -172,7 +172,21 @@ header {
 
 #hardware-section .hardware-item {
     opacity: 0.7;
+    transition: all 0.09s ease;
 }
+
+#hardware-section .hardware-item.my-active-item {
+
+    opacity: 1;
+    border-bottom: 2px solid #2d64e6;
+}
+
+/* HARDWARE SECTION HOVER EFFECTS */
+#hardware-section .hardware-item:hover {
+    opacity: 1;
+    border-bottom: 2px solid #2d64e6;
+}
+
 
 /* RESPONSIVE HARDWARE SECTION*/
 
