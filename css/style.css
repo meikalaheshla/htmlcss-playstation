@@ -153,6 +153,21 @@ header {
     border-radius: 1rem;
 }
 
+.game-thumb.my-active {
+    border-radius: 1.2rem;
+    border: 3px solid #2d64e6;
+    padding: 0.2rem;
+}
+
+.game-thumb {
+    transition: transform 0.5s ease;
+}
+
+/*  BESTSELLER SECTION HOVER EFFECTS */
+.game-thumb:hover {
+    transform: translateY(-10px);
+}
+
 /* HARDWARE SECTION */
 
 #hardware-section .hardware-item {
