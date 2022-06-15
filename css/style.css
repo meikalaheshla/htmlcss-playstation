@@ -154,6 +154,12 @@ header {
     /* color: black; */
 }
 
+/* BONUS NAVBAR JAVASCRIPT */
+#navbar-left .dropdown-menu {
+    /* width: 90vw; */
+    text-align: center;
+}
+
 
 
 
@@ -188,6 +194,7 @@ header {
 }
 
 #best-seller-games .game-thumb {
+    cursor: pointer;
     transition: transform 0.5s ease;
 }
 
